@@ -12,6 +12,8 @@ public class ExcepTest {
       }
       System.out.println("Out of the block");
 
+      
+      //Trying expection with finally block included  
       int a[] = new int[2]; // Size 2
       try {
         System.out.println("Access element three :" + a[3]); // Accessing 3rd element
